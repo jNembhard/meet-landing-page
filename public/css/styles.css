@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500&display=swap");
+
+body {
+  font-family: "Red Hat Display Medium", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Red Hat Display Black", sans-serif;
+  font-style: black;
+  font-size: 64px;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 44px;
+  font-weight: 400;
+}
+
+.overline {
+  letter-spacing: 4px;
+  color: #4d96a9;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 169px;
+}
+
+.banner img {
+  margin-top: 20px;
+}
+
+.banner__middle {
+  width: 540px;
+  height: 304px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 88px;
+  margin-right: 88px;
+  padding-right: 65px;
+  padding-left: 65px;
+}
+
+.banner__middle h1 {
+  text-align: center;
+}
+
+.banner__middle p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 34px;
+  margin-left: -88px;
+  margin-right: -88px;
+}
+
+.button {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.button__size {
+  width: 193px;
+  height: 58px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  margin-right: 16px;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.button__size--aquagreen {
+  background-color: #4d96a9;
+}
+.button__size--purple {
+  background-color: #855fb1;
+  width: 139px;
+}
+
+.shapes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 110px 620px 64px;
+}
+.shapes__vertical {
+  height: 84px;
+  width: 1px;
+  margin: 0 28px;
+  background: #87879d;
+  opacity: 0.5;
+}
+.shapes__circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+  border: 1px solid #87879d;
+  margin: 84px -28px 0;
+  color: black;
+  font-size: 16px;
+}
+
+.extra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

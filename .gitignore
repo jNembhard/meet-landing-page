@@ -1,0 +1,12 @@
+# Sketch and Figma files
+*.sketch
+*.fig
+
+# Adobe XD
+*.xd
+
+# DS_Store
+.DS_Store
+.prettierignore
+
+/meet-landing-page-sketch
