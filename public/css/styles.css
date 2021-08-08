@@ -70,11 +70,16 @@ h2 {
   margin-top: 169px;
 }
 
-.banner img {
-  margin-top: 20px;
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+  }
+  .banner__right {
+    display: none;
+  }
 }
 
-.banner__middle {
+.banner .banner__middle {
   width: 540px;
   height: 304px;
   display: flex;
@@ -87,6 +92,16 @@ h2 {
   padding-left: 65px;
 }
 
+@media (max-width: 768px) {
+  .banner .banner__middle {
+    margin: 71px 156px 80px;
+  }
+  .banner__middle h1 {
+    font-size: 48px;
+    margin: 0 120px 8px;
+  }
+}
+
 .banner__middle h1 {
   text-align: center;
 }
@@ -97,6 +112,14 @@ h2 {
   margin-bottom: 34px;
   margin-left: -88px;
   margin-right: -88px;
+  color: #87879d;
+}
+
+@media (max-width: 768px) {
+  .banner__middle p {
+    font-size: 16px;
+    margin: 0 40px 37px;
+  }
 }
 
 .button {
@@ -156,6 +179,12 @@ h2 {
   opacity: 1;
 }
 
+@media (max-width: 768px) {
+  .shapes {
+    margin: 0 367px 67px;
+  }
+}
+
 .shapes--mod {
   display: flex;
   position: absolute;
@@ -164,6 +193,12 @@ h2 {
   flex-direction: column;
   margin: 0px 620px 448px;
   z-index: 4;
+}
+
+@media (max-width: 768px) {
+  .shapes--mod {
+    margin-top: -120px;
+  }
 }
 
 .spacer__shapes {
@@ -196,6 +231,19 @@ h2 {
   margin-bottom: 80px;
 }
 
+@media (max-width: 768px) {
+  .app__image-container {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .app__image-container img {
+    width: 164px;
+    height: 156px;
+    margin-right: 11px;
+  }
+}
+
 .app--h2-mod {
   width: 445px;
   height: 97px;
@@ -210,6 +258,14 @@ h2 {
   font-size: 18px;
   margin-top: 23px;
   margin-bottom: 74px;
+  color: #87879d;
+}
+
+@media (max-width: 768px) {
+  .app--p-mod {
+    font-size: 16px;
+    margin: 23px 93px 85px;
+  }
 }
 
 .overline {
@@ -242,10 +298,25 @@ footer h2 {
   left: 165px;
 }
 
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    margin-top: 100px;
+    height: 428px;
+  }
+}
+
 @media (max-width: 1441px) {
   .spacer__h2 {
     width: 50%;
     padding-right: 405px;
+  }
+}
+
+@media (max-width: 768px) {
+  .spacer__h2 {
+    width: inherit;
+    padding-right: inherit;
   }
 }
 
@@ -266,6 +337,19 @@ footer p {
   }
 }
 
+@media (max-width: 768px) {
+  footer p {
+    top: 212px;
+    right: 97px;
+    left: 97px;
+    bottom: 42px;
+    text-align: center;
+  }
+  .spacer__p {
+    width: inherit;
+  }
+}
+
 footer .button {
   z-index: 3;
   position: absolute;
@@ -274,10 +358,18 @@ footer .button {
   bottom: 119px;
 }
 
+@media (max-width: 768px) {
+  footer .button {
+    top: 304px;
+    right: 288px;
+    bottom: 66px;
+    left: 288px;
+  }
+}
+
 footer img {
   width: 100vw;
   z-index: 2;
-  background-color: yellowgreen;
   opacity: 0.1;
   object-fit: fill;
 }
