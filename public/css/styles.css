@@ -120,6 +120,17 @@ h2 {
   padding-left: 65px;
 }
 
+.banner .button span {
+  padding-left: 5px;
+  color: #8fe3f9;
+  opacity: 0.6;
+}
+
+.button div:hover {
+  color: #fafafa;
+  opacity: 0.8;
+}
+
 @media (max-width: 768px) {
   .banner .banner__middle {
     width: 70%;
@@ -527,6 +538,12 @@ footer .button {
   top: 131px;
   right: 165px;
   bottom: 119px;
+}
+
+footer .button span {
+  padding-left: 5px;
+  color: #d9b8ff;
+  opacity: 0.6;
 }
 
 @media (max-width: 768px) {
