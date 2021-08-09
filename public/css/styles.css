@@ -538,11 +538,23 @@ footer p {
 }
 
 footer .button {
+  flex-direction: column;
   z-index: 3;
   position: absolute;
   top: 131px;
   right: 165px;
   bottom: 119px;
+}
+
+footer .button .button__size {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer .button .nametag {
+  font-size: 12px;
+  margin-top: 12px;
+  margin-right: 10px;
 }
 
 footer .button span {
@@ -565,7 +577,12 @@ footer .button span {
     top: 292px;
     right: 92px;
     bottom: 72px;
-    left: 92px;
+    left: 100px;
+  }
+
+  footer .button .button__size {
+    padding-top: inherit;
+    padding-bottom: inherit;
   }
 }
 
