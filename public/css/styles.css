@@ -14,12 +14,6 @@ body {
   overflow-x: hidden;
 }
 
-@media (max-width: 376px) {
-  body {
-    padding-left: 10px;
-  }
-}
-
 header {
   display: flex;
   align-items: center;
@@ -440,21 +434,21 @@ footer {
     flex-direction: column;
     margin-top: 100px;
     height: 428px;
+    width: 815px;
   }
 }
 
 @media (max-width: 414px) {
   footer {
     height: 100%;
-
-    width: 450px;
+    width: 440px;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   footer {
-    width: 419px;
-    left: -29px;
+    height: 100%;
+    width: 415px;
   }
 }
 
@@ -560,7 +554,7 @@ footer .button span {
 @media (max-width: 768px) {
   footer .button {
     top: 304px;
-    right: 288px;
+    right: 260px;
     bottom: 66px;
     left: 288px;
   }
