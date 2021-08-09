@@ -27,13 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-**Note: Add screenshot**
+![Landing Page](public/assets/meet-landing-page.jpeg)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Meet Landing Page](https://meetjason.netlify.app)
 
 ## My process
 
